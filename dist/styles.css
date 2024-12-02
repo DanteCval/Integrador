@@ -203,7 +203,10 @@ nav {
 }
 
 .contact-image {
-    display: none;
+    display: block; /* Asegúrate de que la imagen sea visible */
+    width: 200px; /* Ancho deseado */
+    height: 200px; /* Mantiene la proporción de la imagen */
+    margin: 10px; /* Opcional: Añade margen para espaciado */
 }
 
 #contact-form {
